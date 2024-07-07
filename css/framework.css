@@ -8,11 +8,17 @@
 }
 
 /* Start Box */
+.d-block {
+  display: block;
+}
 .d-flex {
   display: flex;
 }
 .align-c {
   align-items: center;
+}
+.s-between {
+  justify-content: space-between;
 }
 .d-grid {
   display: grid;
@@ -24,12 +30,18 @@
   .block-mobile {
     display: block;
   }
+  .hide-mobile {
+    display: none;
+  }
 }
 /* End Box */
 
 /* Start Width And Height */
 .w-full {
   width: 100%;
+}
+.w-fit {
+  width: fit-content;
 }
 /* End Width And Height */
 
@@ -43,11 +55,23 @@
 .p-20 {
   padding: 20px;
 }
-.mt-0 {
-  margin-top: 0;
+.m-0 {
+  margin: 0;
 }
 .m-20 {
   margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
 }
 /* End Padding and Margin */
 
@@ -55,8 +79,20 @@
 .bg-white {
   background-color: white;
 }
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
 .c-black {
   color: black;
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.c-white {
+  color: white;
 }
 /*  End Color */
 
@@ -94,5 +130,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.btn-shape {
+
 }
 /* End Components */
