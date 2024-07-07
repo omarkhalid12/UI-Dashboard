@@ -14,6 +14,17 @@
 .align-c {
   align-items: center;
 }
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
 /* End Box */
 
 /* Start Width And Height */
@@ -62,11 +73,19 @@
 .fs-14 {
   font-size: 14px;
 }
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
 /* End Font */
 
 /* Start Border */
 .rad-6 {
   border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
 }
 /* End Border */
 
