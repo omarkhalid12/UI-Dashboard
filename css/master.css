@@ -334,3 +334,28 @@ ul {
   }
 }
 /* End Latest News */
+
+/* Start Tasks */
+.tasks .task-row:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.tasks .info {
+  flex-grow: 1;
+}
+.tasks .done {
+  opacity: .4;
+}
+.tasks .done h3,
+.tasks .done p {
+  text-decoration: line-through;
+}
+.tasks .delete {
+  transition: .3s;
+  cursor: pointer;
+}
+.tasks .delete:hover {
+  color: var(--red-color);
+}
+/* End Tasks */
