@@ -14,6 +14,9 @@
 .d-flex {
   display: flex;
 }
+.f-wrap {
+  flex-wrap: wrap;
+}
 .align-c {
   align-items: center;
 }
@@ -70,6 +73,9 @@
 .mt-10 {
   margin-top: 10px;
 }
+.mb-5 {
+  margin-bottom: 5px;
+}
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -106,6 +112,15 @@
 .c-blue {
   color: var(--blue-color);
 }
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
+}
 /*  End Color */
 
 /* Start Position */
@@ -123,6 +138,9 @@
 }
 .fs-15 {
   font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
 }
 .fw-bold {
   font-weight: bold;
