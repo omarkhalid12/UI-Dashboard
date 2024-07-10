@@ -359,3 +359,13 @@ ul {
   color: var(--red-color);
 }
 /* End Tasks */
+
+/* Start Latest Upload */
+.latest-upload ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.latest-upload ul li img {
+  width: 40px;
+  height: 40px;
+}
+/* End Latest Upload */
