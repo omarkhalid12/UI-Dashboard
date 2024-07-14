@@ -109,11 +109,17 @@
 .mr-15 {
   margin-right: 15px;
 }
+.mb-0 {
+  margin-bottom: 0px;
+}
 .mb-5 {
   margin-bottom: 5px;
 }
 .mb-10 {
   margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
 }
 .mb-20 {
   margin-bottom: 20px;
@@ -174,6 +180,9 @@
 /* Start Font */
 .txt-c {
   text-align: center;
+}
+.fs-13 {
+  font-size: 13px;
 }
 .fs-14 {
   font-size: 14px;

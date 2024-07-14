@@ -528,7 +528,7 @@ ul {
 }
 /* End Projects Tables */
 
-/* Start Settings page */
+/* Start toggle-checkbox */
 .toggle-checkbox {
   --webkit-appearance: none;
   appearance: none;
@@ -567,7 +567,26 @@ ul {
   left: 50px;
   color: var(--blue-color);
 }
-/* End Settings page */
+/* End toggle-checkbox */
+
+/* Start Settings Page */
+.settings-page {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+@media (max-width: 767px) {
+  .settings-page {
+    grid-template-columns: minmax(100px, 1fr);
+    margin: 0 10px;
+    gap: 10px;
+  }
+}
+.settings-page .close-message {
+  border: 1px solid #ccc;
+  resize: none;
+  min-height: 150px;
+}
+/* End Settings Page */
+
 
 /* Start Animation */
 @keyframes change-color {
